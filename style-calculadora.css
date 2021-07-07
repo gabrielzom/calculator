@@ -1,0 +1,71 @@
+div {
+    padding-top: 3px;
+}
+#result {
+    margin-bottom: 5px;
+
+}
+
+#result > input {
+    height: 20px;
+    border-radius: 2px;
+    border-width: 0.5px;
+    color: black;
+}
+
+.btn-normal {
+    height: 20px;
+    width : 38.5px;
+    background-color:white;
+    cursor : pointer;
+    border-radius: 2px;
+    border-color: rgb(189, 189, 189);
+    border-width: 0.5px;
+    border-style: double;
+}
+
+.btn-normal:hover {
+    background-color: rgb(189, 189, 189);
+    transition-duration: 300ms;
+    transition-timing-function: ease-in-out;
+}
+
+#clear {
+    background-color: rgb(255, 0, 0);
+    color:aliceblue;
+}
+
+#clear:hover {
+    background-color: rgb(192, 0, 0);
+    transition-duration: 300ms;
+    transition-timing-function: ease-in-out;
+}
+
+#back-space {
+    background-color: rgb(189, 189, 189);
+    color:aliceblue;
+}
+
+#back-space:hover {
+    background-color: rgb(148, 148, 148);
+    transition-duration: 300ms;
+    transition-timing-function: ease-in-out;
+}
+
+#equal {
+    background-color: #4285f4;
+    color:aliceblue;
+}
+
+#equal:hover {
+    background-color: #679ffa;
+    transition-duration: 300ms;
+    transition-timing-function: ease-in-out;
+}
+
+#zero {
+    width: 81px;
+}
+
+
+
